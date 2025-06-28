@@ -33,7 +33,7 @@ class Amo < Formula
   end
 
   def install
-    bin.install name => "amo"
+    bin.install Dir["amo_*"].first => "amo"
   end
 
   test do
