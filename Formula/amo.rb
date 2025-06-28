@@ -44,3 +44,4 @@ class Amo < Formula
     system bin/"amo", "config", "ls"
   end
 end
+# Updated: 2025-06-28T14:39:23Z
