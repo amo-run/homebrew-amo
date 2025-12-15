@@ -2,33 +2,33 @@ class Amo < Formula
   desc "Advanced workflow automation CLI tool for productivity and task management"
   homepage "https://github.com/amo-run/amo-cli"
   license "MIT"
-  version "0.1.20"
+  version "0.1.21"
 
   on_macos do
     on_intel do
-      url "https://github.com/amo-run/amo-cli/releases/download/v0.1.20/amo_darwin_amd64"
-      sha256 "8f36aaaf91162d8f93e71b0e6ffaa15c843bd815b0452761875d2ed826ad4821"
+      url "https://github.com/amo-run/amo-cli/releases/download/v0.1.21/amo_darwin_amd64"
+      sha256 "8633a27327ad2cb4d52331590936c2c9cdad9b870e6b267be22c44311dfad01e"
     end
   end
 
   on_macos do
     on_arm do
-      url "https://github.com/amo-run/amo-cli/releases/download/v0.1.20/amo_darwin_arm64"
-      sha256 "e68025888c60cb7a905f32bb62e3b98b079ffaed7be2d57ef8d5382bd2a52e7a"
+      url "https://github.com/amo-run/amo-cli/releases/download/v0.1.21/amo_darwin_arm64"
+      sha256 "f19f9abb221f04c5f92fd5f91abfc600690fcf8cad7483b91d5ec63df3bb4b2e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/amo-run/amo-cli/releases/download/v0.1.20/amo_linux_amd64"
-      sha256 "b63f7ca5fcf56c13f9a17be606fd3533fdd6581f9d80439101a28e03b54b9056"
+      url "https://github.com/amo-run/amo-cli/releases/download/v0.1.21/amo_linux_amd64"
+      sha256 "35d8f73edea6a4fc0cc7354b097fae5989a495531edbb8d98cc3bdbf49827975"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/amo-run/amo-cli/releases/download/v0.1.20/amo_linux_arm64"
-      sha256 "a84be48b79280391d3b4f7db0c4dc8d3e60c11c7ba6d8830510b7f453e26faa3"
+      url "https://github.com/amo-run/amo-cli/releases/download/v0.1.21/amo_linux_arm64"
+      sha256 "1c71c93e7f24a6ac7d2a94d19fb49dc84455146426768c5d8f56c30970992ed6"
     end
   end
 
